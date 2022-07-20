@@ -1,0 +1,75 @@
+.cont1 {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    width: 1200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cont2 {
+    
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+.vidbox {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+}
+.screen {
+    height: 450px;
+    background-color: white;
+    border: 3px solid black;
+}
+.buttons {
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: -20px;
+    border: 3px solid black;
+}
+.lowerbox {
+    display: flex;
+}
+.vidDesc {
+    width: 600px;
+    background-color: aliceblue;
+}
+.sub {
+    width: 100px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.othervids {
+    width: 400px;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.upnext {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.vids {
+    height: 600px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 3px solid black;
+}

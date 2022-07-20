@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.navArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav {
+    height: 75px;
+    width: 700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.underNav {
+    height: 75px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 30px;
+    
+}
+.bodyArea {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.avatar {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 3px solid black;
+
+}
+.people {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.box1 {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid black;
+}
+.box2 {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.box3 {
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.inner {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.txt2 {
+    width: 400px;
+    align-items: flex-start;
+}
+
+.btn {
+    background-color: goldenrod;
+    box-shadow: 3px 3px 1px ;
+}

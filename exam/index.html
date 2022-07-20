@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Shelter</title>
+</head>
+<body>
+    <div class="blue-cont">
+        <div class="upper">
+            <div class="inner1">
+                <img src="/Assignments/exam/heart-light.png" alt="heart"
+                width="50" height="50">
+                <h1>Pet Shelter</h1>
+            </div>
+            <div class="inner2">
+                <p>Find a Pet</p>
+                <p>About</p>
+                <div onclick="disappear(this)">
+                    <button class="upperbtn">Donate</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="lower">
+            <div class="looking">
+                <p>I'm looking for a...</p>
+                <div class="paw">
+                    <img src="/Assignments/exam/paw-light.png" alt="paw"
+                    width="30">
+                    <select  name="pet" id="favanimal">
+                        <option >Any Pet</option>
+                        <option onchange="alert('cat')" class="select">Cat</option>
+                        <option onchange="alert('dog')" >Dog</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div>
+                <p>in or near...</p>
+                <div class="paw">
+                    <img src="/Assignments/exam/pin-light.png" alt="pin"
+                    width="30">
+                    <input type="text" name="location" 
+                    placeholder="City or Zip Code">
+                </div>
+                
+            </div>
+            <div class="btn1">
+                <button class="innerbtn">Find your new best friend</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gray-cont"> 
+        <div class="pets">
+            <div>
+                <img src="/Assignments/exam/pepper.jpg" alt="pepper">
+            </div>
+            <div class="inPets">
+                <h2>Pepper</h2>
+                <p>Pepper is a slightly shy grey tabby, but she</p>
+                <p>really loves showing her human affection</p>
+            </div>
+            <div class="pettings">
+                <p><span class="num">3</span>  petting(s)</p>
+                <button onclick="pet1()" class="btn">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="pets">
+            <div>
+                <img src="/Assignments/exam/bruce.jpg" alt="Bruce">
+            </div>
+            <div class="inPets">
+                <h2>Bruce</h2>
+                <p>Bruce is a loyal companion. He loves long</p>
+                <p>walks and cold weather.</p>
+            </div>
+            <div>
+            <div class="pettings">
+                <p><span class="num1">5</span>  petting(s)</p>
+                <button onclick="pet2()" class="btn">Pet Bruce</button>
+            </div>
+            </div>
+        
+        </div>
+        <div class="pets">
+            <div>
+                <img src="/Assignments/exam/oscar.jpg" alt="Oscar">
+            </div>
+            <div class="inPets">
+                <h2>Oscar</h2>
+                <p>Oscar is bright, energetic and friendly. He is </p>
+                <p>looking for a good home.</p>
+            </div>
+            <div class="pettings">
+                <P><span class="num2">8</span>  petting(s)</P>
+                <button onclick="pet3()" class="btn">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

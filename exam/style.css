@@ -1,0 +1,119 @@
+.blue-cont {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.upper {
+    width:1175px;
+    background-color: turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.inner1 {
+display: flex;
+color: white;
+display: flex;
+align-items: center;
+padding-left: 20px;
+margin-left: 65px;
+}
+
+.inner2 {
+    width: 500px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    margin-right: 50px;
+}
+.upperbtn {
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px black;
+}
+
+.lower {
+    height: 100px;
+    width: 1200px;
+    color: white;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.looking {
+    width: 150px;
+}
+.select {
+    width: 250px;
+}
+
+.btn1 {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+.innerbtn {
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    width: 200px;
+    box-shadow: 3px 3px black;
+}
+
+.gray-cont {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pets {
+    width: 1000px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid gray;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.paw {
+    display: flex;
+}
+
+.inPets {
+    width: 550px;
+    font-size: x-large;
+}
+.pettings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn {
+    width: 150px;
+    background-color: turquoise;
+    color: white;
+    box-shadow: 3px 3px black;
+}
